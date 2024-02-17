@@ -4,9 +4,28 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url('./app/img/cool-background.png');
-    background-size: cover; /* ajusta a imagem para cobrir todo o espaço do elemento */
-    /* background-position: center; centraliza a imagem no elemento */
-    background-repeat: no-repeat; /* não repete a imagem */
+@font-face {
+    font-family: 'satoshi';
+    src: url(../src/app/fonts/Satoshi-Regular.otf);
 }
+@font-face {
+    font-family: 'avantgarde';
+    src: url(../src/app/fonts/AvantGarde-Bold.otf);
+}
+@font-face {
+    font-family: 'chromate';
+    src: url(../src/app/fonts/Chromate-Regular.ttf);
+}
+
+h1 {
+    font-family: 'chromate', sans-serif;
+}
+
+h2 {
+    font-family: 'avantgarde', sans-serif;
+}
+
+p {
+    font-family: 'satoshi', sans-serif;
+}
+
