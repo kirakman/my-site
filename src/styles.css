@@ -19,13 +19,22 @@
 
 h1 {
     font-family: 'chromate', sans-serif;
+    color: #f5f4ef;
+    letter-spacing: 10px;
 }
 
 h2 {
     font-family: 'avantgarde', sans-serif;
+    color: #ffc736;
 }
 
 p {
     font-family: 'satoshi', sans-serif;
+    color: #f5f4ef;
+}
+
+span {
+    font-family: 'avantgarde', sans-serif;
+    cursor: pointer;
 }
 
