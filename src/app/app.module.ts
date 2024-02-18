@@ -7,6 +7,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { Container1Component } from './components/container1/container1.component';
 import { Container2Component } from './components/container2/container2.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ButtonModule } from 'primeng/button';
+import { CarouselModule } from 'primeng/carousel';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +22,10 @@ import { Container2Component } from './components/container2/container2.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    ButtonModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
