@@ -25,7 +25,7 @@ img{
     position: relative;
 }
 
-span {
+.buttons span {
     padding: 10px 20px;
     border-radius: 20px;
     border: 1px solid #f5f4f5;
@@ -35,7 +35,7 @@ span {
     transition: 1s;
 }
 
-span:hover {
+.buttons span:hover {
     background-color: #ffc736;
     color: black;
     padding: 10px 20px;
@@ -67,3 +67,96 @@ span:hover {
     background-color: #ffc736;
     transition: 0.5s;
 }
+
+/* teste */
+
+h2 {
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 740px;
+}
+  
+.message {
+    background-color: #ffc736;
+    color: #333;
+    display: block;
+    font-weight: 900;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 0.5rem;
+    left: 360px;
+    animation: openclose 5s ease-in-out infinite;
+}
+  
+@keyframes openclose {
+    0% {
+      top: 0rem;
+      width: 480px;
+    }
+    5% {
+      top: 0rem;
+      width: 480px;
+    }
+    15% {
+        top: 0rem;
+      width: 480px;
+    }
+    25% {
+        top: 0rem;
+      width: 480px;
+    }
+    30% {
+        top: 0rem;
+      width: 480px;
+    }
+    35% {
+      top: 0rem;
+      width: 480px;
+    }
+    38% {
+      top: -5.5rem;
+      
+    }
+    48% {
+      top: -5.5rem;
+      width: 480px;
+    }
+    58% {
+      top: -5.5rem;
+      width: 480px;
+    }
+    62% {
+      top: -5.5rem;
+      width: 480px;
+      text-indent: 0;
+    }
+    66% {
+      top: -11.2rem;
+      width: 480px;
+      text-indent: 2px;
+    }
+    76% {
+      top: -11.2rem;
+      width: 480px;
+
+    }
+    86% {
+      top: -11.2rem;
+      width: 480px;
+    }
+    95% {
+      top: -11.2rem;
+      width: 480px;
+      text-indent: 2px;
+    }
+    100% {
+      top: 0;
+      width: 480px;
+      text-indent: 0;
+    }
+}
+
+  
