@@ -36,7 +36,7 @@ p {
     color: #f5f4ef;
 }
 
-span {
+span, button {
     font-family: 'avantgarde', sans-serif;
     cursor: pointer;
 }

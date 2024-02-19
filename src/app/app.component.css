@@ -5,14 +5,17 @@
 }
 
 .background {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
     background: #191916;
-    overflow: hidden;
 }
+
+.content{
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+
 
 .background span {
     width: 1vmin;
@@ -24,6 +27,7 @@
     animation-duration: 1;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    z-index: -10;
 }
 
 

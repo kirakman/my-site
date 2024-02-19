@@ -1,0 +1,94 @@
+.container {
+    color: wheat;
+    display: flex;
+}
+
+.left {
+    width: 40%;
+    max-width: 40%;
+    text-align: center;
+    border-left: 10px solid #ffc736;
+    height: 500px;
+}
+
+.right {
+    width: 60%;
+    max-width: 60%;
+    background-color: #3e3e3a;
+    border: 1px #3e3e3a solid;
+    border-radius: 100px 0px 0px 100px;
+    height: 500px;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+.mensagem {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #f5f4f5;
+    background-color: transparent;
+    color: #f5f4f5;
+    letter-spacing: 2px;
+    transition: 1s;
+    gap: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffc736;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+
+.buttons button:focus {
+    background-color: #ffc736;
+    outline: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+
+.botao-focado {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #f5f4f5;
+    background-color: transparent;
+    color: #f5f4f5;
+    letter-spacing: 2px;
+    transition: 1s;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.titulo {
+    color: #ffc736;
+    font-size: 48px;
+}
+
+p {
+    font-size: 20px;
+    text-align: start;
+}
+
+.img-logo {
+    display: none; /* Inicialmente oculta a imagem */
+  }

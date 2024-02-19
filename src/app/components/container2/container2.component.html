@@ -1,1 +1,38 @@
-<h1>container2 works!</h1>
+<div class="container">
+    <div class="left">
+        <div class="buttons">
+            <button (click)="mostrarMensagem(1)" [ngClass]="{'botao-focado': botaoFocado === 1}">Resumo</button>
+            <button (click)="mostrarMensagem(2)" [ngClass]="{'botao-focado': botaoFocado === 2}">Profissional</button>
+            <button (click)="mostrarMensagem(3)" [ngClass]="{'botao-focado': botaoFocado === 3}">Acadêmico</button>
+        </div>
+        <div class="left-content">
+            <div>
+                <img src="/assets/img/new-logo.png" alt="logo" class="img-logo" >
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div id="mensagem1" class="mensagem">
+            <h1 class="titulo">Hello,</h1>
+            <h1>Um pouco mais sobre mim...</h1>
+            <br>
+            <p>Sou estudante do 5º e último semestre do curso superior de Análise e Desenvolvimento de Sistemas, tenho 28 anos e vim de uma carreira Gastronômica focada em Cafés Especiais, sou apaixonado por criatividade e tecnologia e por desenvolvimento Front end onde a criatividade e o Design não tem limites! Adoro criar coisas novas e testar paletas de cores nas minhas aplicações, claro sempre acompanhado de uma boa xícara de café.
+            Aqui estarei mostrando um pouco mais das minhas Skills como desenvolvedor Full Stack. Trabalhei por 1 ano e 4 meses no grande Instituto de Pesquisas Eldorado, onde criei e elaborei vários projetos internos e para grandes clientes também como a DELL.
+            Espero que gostem :) </p>
+        </div>
+        <div id="mensagem2" class="mensagem">
+            <h1>Testando2</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+        </div>
+        <div id="mensagem3" class="mensagem">
+            <h1>Testando3</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+        </div>
+    </div>
+</div>

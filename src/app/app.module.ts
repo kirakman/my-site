@@ -10,6 +10,7 @@ import { Container2Component } from './components/container2/container2.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ButtonModule } from 'primeng/button';
 import { CarouselModule } from 'primeng/carousel';
+import { Container3Component } from './components/container3/container3.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { CarouselModule } from 'primeng/carousel';
     HeaderComponent,
     FooterComponent,
     Container1Component,
-    Container2Component
+    Container2Component,
+    Container3Component
   ],
   imports: [
     BrowserModule,
