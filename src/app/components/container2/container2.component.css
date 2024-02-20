@@ -19,7 +19,10 @@
     border-radius: 100px 0px 0px 100px;
     height: 500px;
     padding-left: 40px;
-    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 10px solid #616161;
 }
 
 .mensagem {
@@ -89,6 +92,13 @@ p {
     text-align: start;
 }
 
-.img-logo {
-    display: none; /* Inicialmente oculta a imagem */
-  }
+.left-content img {
+    width: 350px;
+    height: 380px;
+    border: #ffc736 solid 2px;
+    border-radius: 50px;
+}
+
+img {
+    background-color: #616161;
+}

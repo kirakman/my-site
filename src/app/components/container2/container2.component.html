@@ -5,34 +5,38 @@
             <button (click)="mostrarMensagem(2)" [ngClass]="{'botao-focado': botaoFocado === 2}">Profissional</button>
             <button (click)="mostrarMensagem(3)" [ngClass]="{'botao-focado': botaoFocado === 3}">Acadêmico</button>
         </div>
+        <br><br><br>
         <div class="left-content">
-            <div>
-                <img src="/assets/img/new-logo.png" alt="logo" class="img-logo" >
+            <div *ngIf="mostrarImagem1">
+                <img src="/assets/img/Yellow Icons/vecteezy_user-icon-design_9267848.png" alt="logo" class="img-logo" id="imagem1">
+            </div>
+            <div *ngIf="mostrarImagem2">
+                <img src="/assets/img/Yellow Icons/laptop-interface-with-blank-screen-vector-removebg-preview.png" alt="logo" class="img-logo" id="imagem1">
+            </div>
+            <div  *ngIf="mostrarImagem3">
+                <img src="/assets/img/Yellow Icons/vecteezy_notebook-creative-icon-design_16048521-removebg-preview.png" alt="logo" class="img-logo" id="imagem1">
             </div>
         </div>
     </div>
     <div class="right">
         <div id="mensagem1" class="mensagem">
             <h1 class="titulo">Hello,</h1>
-            <h1>Um pouco mais sobre mim...</h1>
-            <br>
-            <p>Sou estudante do 5º e último semestre do curso superior de Análise e Desenvolvimento de Sistemas, tenho 28 anos e vim de uma carreira Gastronômica focada em Cafés Especiais, sou apaixonado por criatividade e tecnologia e por desenvolvimento Front end onde a criatividade e o Design não tem limites! Adoro criar coisas novas e testar paletas de cores nas minhas aplicações, claro sempre acompanhado de uma boa xícara de café.
-            Aqui estarei mostrando um pouco mais das minhas Skills como desenvolvedor Full Stack. Trabalhei por 1 ano e 4 meses no grande Instituto de Pesquisas Eldorado, onde criei e elaborei vários projetos internos e para grandes clientes também como a DELL.
-            Espero que gostem :) </p>
+            <h1>um pouco mais sobre mim...</h1>
+            <br><br>
+            <p>Sou estudante do 5º e último semestre do curso superior de Análise e Desenvolvimento de Sistemas pela UNICEPLAC, tenho 28 anos, pai de uma filha linda e sou apaixonado por criatividade e tecnologia e por desenvolvimento Front end onde a criatividade e o Design não tem limites! Adoro criar coisas novas e testar paletas de cores nas minhas aplicações, claro sempre acompanhado de uma boa xícara de café.
+            Aqui estarei mostrando um pouco mais das minhas Skills como desenvolvedor Full Stack. Trabalhei por 1 ano e 4 meses no grande Instituto de Pesquisas Eldorado, onde criei e elaborei vários projetos internos e para grandes clientes também como a DELL. <br>Espero que gostem...</p>
         </div>
         <div id="mensagem2" class="mensagem">
-            <h1>Testando2</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+            <h1 class="titulo">Minha história,</h1>
+            <h1>e um pouco mais sobre minha trajetória...</h1>
+            <br><br>
+            <p>Trabalhei por 1 ano e 4 meses no grande Instituto de Pesquisas Eldorado, onde criei e elaborei vários projetos internos e para grandes clientes também como a DELL. Atuei principalmente em grandes projetos de grande escopo na parte do Front end e também auxiliando em pontos específicos no Back end, utilizando Frameworkd como AngularJs e Angular9+ e focado em manutenção do Back end em C#. Pude aprender também bastante sobre versionamento de código e Git Flow, trabalhando com grandes desenvolvedores nacionais e internacionais. Dentre as cerimônias Scrum pude cter contato com grandes projetos no qual fiz entregas Júnior de grande importância. Ao final da minha trajetória na ELD entrei em outro time como Tester, testando aplicações de grande porte com tester automatizados, coletando evidências, abrindo defeitos no Jira e aperfeiçoando a experiência de usuário.</p>
         </div>
         <div id="mensagem3" class="mensagem">
-            <h1>Testando3</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+            <h1 class="titulo">Vida acadêmica,</h1>
+            <h1>o que estou fazendo agora?</h1>
+            <br><br>
+            <p>Como disse anteriormente sou estudante do 5º e último semestre do curso superior de Análise e Desenvolvimento de Sistemas pela UNICEPLAC. Em 2016 me formei no curso superior em Gastronomia pelo IESB, passei por várias experiências desde cozinha de alta gastronomia, panificação, confeitaria e me apaixonei ainda mais por Cafés Especiais, me entreguei de corpo e alma realizando cursos e fazendo e provando todo e qualquer tipo de café especial que eu visse. Após muitos anos trabalhando como Barista em várias casas de Cafés Especiais em Brasília, achei que faltava algo, faltava mais e foi aí que a Tecnologia veio e me abraçou, comecei a partir daí a estudar os tipos de áreas que eu tinha uma afinidade primeiro, tive meu primeiro contato com o Front end e me apaixonei por Angular.</p>
         </div>
     </div>
 </div>
