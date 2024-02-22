@@ -9,7 +9,6 @@ import { Component, OnInit } from '@angular/core';
 export class Container2Component implements OnInit {
 
   mensagemAtual: number = 1;
-  botaoFocado: number = 1;
   mostrarImagem1: boolean = false;
   mostrarImagem2: boolean = false;
   mostrarImagem3: boolean = false;
@@ -21,7 +20,6 @@ export class Container2Component implements OnInit {
     if (divMensagemInicial) {
       divMensagemInicial.style.display = 'block';
     }
-    this.botaoFocado = 1;
     this.mostrarImagem1 = true;
   }
 
