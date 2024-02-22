@@ -1,0 +1,97 @@
+.container {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-content-front {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.frontend {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.frontend img {
+    width: 120px;
+    height: 110px;
+    border: 2px solid #f5f4f5;
+    border-radius: 20px 0px 20px 0px;
+    padding: 10px;
+}
+
+/* .frontend .unit{
+    backdrop-filter: blur(25px); 
+} */
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #f5f4f5;
+    background-color: transparent;
+    color: #f5f4f5;
+    letter-spacing: 2px;
+    transition: 1s;
+    gap: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffc736;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+
+.buttons button:focus {
+    background-color: #ffc736;
+    outline: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+
+/* teste */
+
+/* .frontend div p {
+    display: none;
+    position: absolute;
+    background-color: #ffc736;
+    border: 1px #ffc736 solid;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.frontend div:hover p {
+    display:block;
+} */
+
+/* .unit {
+    backdrop-filter: blur(25px); ;
+} */
+

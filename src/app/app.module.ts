@@ -11,6 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ButtonModule } from 'primeng/button';
 import { CarouselModule } from 'primeng/carousel';
 import { Container3Component } from './components/container3/container3.component';
+import { BreadcrumbModule } from 'primeng/breadcrumb';
+import { StyleClassModule } from 'primeng/styleclass';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { Container3Component } from './components/container3/container3.componen
     AppRoutingModule,
     BrowserAnimationsModule,
     ButtonModule,
-    CarouselModule
+    CarouselModule,
+    BreadcrumbModule,
+    StyleClassModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
