@@ -54,13 +54,3 @@ html, body {
     width: 60%;
     margin: 0 auto;
 }
-
-.mat-step-icon-state-edit{
-    color: red;
-    background-color: rebeccapurple;
-}
-
-.mat-step-icon-selected {
-    background-color: aqua;
-}
-

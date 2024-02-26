@@ -12,11 +12,11 @@
 
 h1 {
     font-size: 120px;
+    font-family: 'chromate', sans-serif;
+    color: #f5f4ef;
+    letter-spacing: 10px;
 }
 
-h2 {
-    font-size: 60px;
-}
 
 img{
     width: 446px;
@@ -77,6 +77,14 @@ h2 {
     overflow: hidden;
     position: relative;
     width: 740px;
+    font-family: 'avantgarde', sans-serif;
+    color: #ffc736;
+    font-size: 60px;
+}
+
+p {
+  font-family: 'satoshi', sans-serif;
+  color: #f5f4ef;
 }
   
 .message {

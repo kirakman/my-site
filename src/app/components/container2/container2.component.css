@@ -90,6 +90,10 @@ button:hover {
 p {
     font-size: 20px;
     text-align: start;
+    font-family: 'satoshi', sans-serif;
+    color: #f5f4ef;
+    letter-spacing: 1px;
+    line-height: 26px;
 }
 
 .left-content img {
@@ -101,4 +105,16 @@ p {
 
 img {
     background-color: #616161;
+}
+
+h1{
+    font-family: 'chromate', sans-serif;
+    color: #f5f4ef;
+    letter-spacing: 10px;
+}
+
+h2{
+    font-family: 'avantgarde', sans-serif;
+    color: #ffc736;
+    font-size: 60px;
 }
