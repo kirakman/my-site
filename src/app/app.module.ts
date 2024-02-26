@@ -13,6 +13,11 @@ import { CarouselModule } from 'primeng/carousel';
 import { Container3Component } from './components/container3/container3.component';
 import { BreadcrumbModule } from 'primeng/breadcrumb';
 import { StyleClassModule } from 'primeng/styleclass';
+import {FormBuilder, Validators, FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {MatButtonModule} from '@angular/material/button';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatStepperModule} from '@angular/material/stepper';
 
 
 @NgModule({
@@ -32,6 +37,12 @@ import { StyleClassModule } from 'primeng/styleclass';
     CarouselModule,
     BreadcrumbModule,
     StyleClassModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatButtonModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatStepperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

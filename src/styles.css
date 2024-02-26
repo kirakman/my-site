@@ -40,3 +40,27 @@ span, button {
     font-family: 'avantgarde', sans-serif;
     cursor: pointer;
 }
+
+html, body { 
+    height: 100%; 
+    margin: 0;
+}
+
+.mat-stepper-horizontal-line {
+    background-color: #f5f4ef; 
+}
+
+.mat-horizontal-stepper-header-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.mat-step-icon-state-edit{
+    color: red;
+    background-color: rebeccapurple;
+}
+
+.mat-step-icon-selected {
+    background-color: aqua;
+}
+
