@@ -104,7 +104,8 @@ p {
 }
 
 img {
-    background-color: #616161;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
 }
 
 h1{

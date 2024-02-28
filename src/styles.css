@@ -47,10 +47,18 @@ html, body {
 }
 
 .mat-stepper-horizontal-line {
-    background-color: #f5f4ef; 
+    background-color: #f5f4ef;
 }
 
 .mat-horizontal-stepper-header-container{
     width: 60%;
     margin: 0 auto;
+}
+
+.mat-stepper-label-position-bottom .mat-horizontal-stepper-header .mat-step-icon{
+    background-color: #ffc736;
+}
+
+.mat-icon  .material-icons .mat-ligature-font .mat-icon-no-color {
+    display: none;
 }
