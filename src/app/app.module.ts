@@ -18,6 +18,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatStepperModule} from '@angular/material/stepper';
+import { Container4Component } from './components/container4/container4.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import {MatStepperModule} from '@angular/material/stepper';
     FooterComponent,
     Container1Component,
     Container2Component,
-    Container3Component
+    Container3Component,
+    Container4Component
   ],
   imports: [
     BrowserModule,
