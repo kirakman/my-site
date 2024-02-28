@@ -1,10 +1,10 @@
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 
-* {
+/* * {
     margin: 0px;
     box-sizing: border-box;
-}
+} */
 
   
 @font-face {
@@ -41,10 +41,10 @@ span, button {
     cursor: pointer;
 }
 
-html, body { 
+/* html, body { 
     height: 100%; 
     margin: 0;
-}
+} */
 
 .mat-stepper-horizontal-line {
     background-color: #f5f4ef;
@@ -57,8 +57,4 @@ html, body {
 
 .mat-stepper-label-position-bottom .mat-horizontal-stepper-header .mat-step-icon{
     background-color: #ffc736;
-}
-
-.mat-icon  .material-icons .mat-ligature-font .mat-icon-no-color {
-    display: none;
 }

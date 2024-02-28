@@ -1,5 +1,4 @@
-.container {
-    height: 800px;
+.container-bloco {
     display: flex;
     justify-content: center;
     flex-direction: column;

@@ -20,7 +20,7 @@ p:hover {
     color: #ffc736;
 }
 
-@media screen and (max-width: 500px){
+/* @media screen and (max-width: 500px){
     p, img{
         font-size: 6px;
         width: 10%;
@@ -34,6 +34,6 @@ p:hover {
         padding: auto;
     }
   }
-
+ */
 
 

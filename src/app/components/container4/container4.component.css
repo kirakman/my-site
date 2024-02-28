@@ -1,4 +1,28 @@
 .container {
     height: 800px;
     display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+img {
+    border: 1px transparent solid;
+    border-radius: 75px;
+}
+
+.carrossel {
+    border-right: 10px solid #ffc736;
+    border-left: 10px solid #ffc736;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+h1 {
+font-size: 120px;
+font-family: 'chromate', sans-serif;
+color: #f5f4ef;
+letter-spacing: 10px;
 }
