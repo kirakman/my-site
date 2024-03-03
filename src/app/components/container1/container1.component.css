@@ -68,8 +68,6 @@ img{
     transition: 0.5s;
 }
 
-/* teste */
-
 h2 {
     line-height: 1.5;
     text-transform: uppercase;
@@ -97,6 +95,10 @@ p {
     padding-left: 0.5rem;
     left: 360px;
     animation: openclose 5s ease-in-out infinite;
+}
+
+a {
+  text-decoration: none; 
 }
   
 @keyframes openclose {
