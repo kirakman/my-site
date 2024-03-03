@@ -1,21 +1,22 @@
-.container {
-    height: 800px;
+.container-bloco {
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    border-right: 10px solid #ffc736;
+    border-left: 10px solid #ffc736;
 }
 
 img {
     border: 1px transparent solid;
     border-radius: 75px;
+    width: 1280px;
+    height: 720px;
 }
 
 .carrossel {
-    border-right: 10px solid #ffc736;
-    border-left: 10px solid #ffc736;
     padding-left: 300px;
     padding-right: 300px;
 }
@@ -25,4 +26,13 @@ font-size: 120px;
 font-family: 'chromate', sans-serif;
 color: #f5f4ef;
 letter-spacing: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(97, 97, 97, 0.8);
+    border-radius: 20px;
+    color: #f5f4ef;
+    font-size: 16px;
+    font-family: 'satoshi', sans-serif;
+    letter-spacing: 1px;
 }
