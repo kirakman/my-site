@@ -36,3 +36,26 @@ letter-spacing: 10px;
     font-family: 'satoshi', sans-serif;
     letter-spacing: 1px;
 }
+
+.typewriter h1 {
+    color: #f5f4ef;
+    overflow: hidden; 
+    border-right: .15em solid #ffc736; 
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    font-family: 'chromate', sans-serif;
+}
+  
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ffc736 }
+}

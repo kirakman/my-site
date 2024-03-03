@@ -41,11 +41,6 @@ span, button {
     cursor: pointer;
 }
 
-/* html, body { 
-    height: 100%; 
-    margin: 0;
-} */
-
 .mat-stepper-horizontal-line {
     background-color: #f5f4ef;
 }
