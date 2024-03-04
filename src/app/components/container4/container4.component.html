@@ -6,7 +6,7 @@
     <ngb-carousel class="carrossel">
         <ng-template ngbSlide *ngFor="let image of images">
             <div class="picsum-img-wrapper">
-                <img [src]="image.src" [alt]="image.alt" />
+                <a href="{{image.url}}" target="_blank"><img [src]="image.src" [alt]="image.alt" /></a>
             </div>
             <div class="carousel-caption">
                 <h3> {{ image.captionTitle }} </h3>
