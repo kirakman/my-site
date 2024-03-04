@@ -5,8 +5,6 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    border-right: 10px solid #ffc736;
-    border-left: 10px solid #ffc736;
 }
 
 img {
@@ -17,8 +15,10 @@ img {
 }
 
 .carrossel {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 270px;
+    padding-right: 270px;
+    border-right: 10px solid #ffc736;
+    border-left: 10px solid #ffc736;
 }
 
 h1 {
@@ -40,7 +40,7 @@ letter-spacing: 10px;
 .typewriter h1 {
     color: #f5f4ef;
     overflow: hidden; 
-    border-right: .15em solid #ffc736; 
+    border-right: .10em solid #ffc736; 
     white-space: nowrap;
     margin: 0 auto; 
     letter-spacing: .15em;
