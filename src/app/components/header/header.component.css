@@ -20,20 +20,21 @@ p:hover {
     color: #ffc736;
 }
 
-/* @media screen and (max-width: 500px){
-    p, img{
-        font-size: 6px;
-        width: 10%;
-        height: 10%;
-        max-width: 10%;
-        max-height: 10%;
+@media screen and (max-width: 500px){
+    .header {
+        font-size: 8px;
+        width: 100%;
+        color: #f5f4ef;
+        text-align: center;
         display: flex;
         align-items: center;
-        color: #f5f4ef;
-        justify-content: space-around;    
-        padding: auto;
+        justify-content: space-around;
+    }
+    img {
+        width: 49px;
+        height: 44px;
     }
   }
- */
+
 
 
