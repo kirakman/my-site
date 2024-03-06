@@ -31,8 +31,7 @@ p:hover {
         justify-content: space-around;
     }
     img {
-        width: 49px;
-        height: 44px;
+        display: none;
     }
   }
 
