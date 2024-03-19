@@ -52,3 +52,12 @@ span, button {
 .mat-stepper-label-position-bottom .mat-horizontal-stepper-header .mat-step-icon{
     background-color: #ffc736;
 }
+
+@media screen and (max-width: 500px){
+    .mat-stepper-horizontal-line {
+        display: none;
+    }
+    .mat-horizontal-stepper-header-container {
+        width: 110vw;
+}   
+}

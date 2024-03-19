@@ -8,6 +8,8 @@
     border-bottom: 2px solid #f5f4ef;
     width: 50%;
     margin: 0 auto;
+    scroll-snap-type: y proximity;
+
 }
 
 p {
@@ -19,6 +21,11 @@ p {
 p:hover {
     color: #ffc736;
 }
+
+.container1,.container2,.container3,.container4{
+    scroll-snap-align: center;
+}
+
 
 @media screen and (max-width: 500px){
     .header {

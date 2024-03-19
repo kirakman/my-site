@@ -4,7 +4,13 @@
     display: flex;
     flex-direction: column;
     gap: 300px;
+    scroll-snap-type: y proximity;
 }
+
+.container1,.container2,.container3,.container4{
+    scroll-snap-align: center;
+}
+
 
 @media screen and (max-width: 500px){
     .content  {
@@ -13,6 +19,45 @@
         padding-right: 0px;
         display: flex;
         flex-direction: column;
-        gap: 400px;
+        gap: 130px;
     }
 }
+
+/* TESTE */
+
+.mat-stepper-vertical,
+.mat-stepper-horizontal {
+    display: none;
+    
+}
+
+
+.mat-horizontal-stepper-header-container {
+    display: none;
+}
+
+.mat-stepper-label-position-bottom .mat-horizontal-stepper-header-container {
+   display: none;
+}
+
+.mat-stepper-header-position-bottom .mat-horizontal-stepper-header-container {
+    display: none;}
+
+
+.mat-stepper-horizontal-line {
+    display: none;
+}
+
+.mat-stepper-label-position-bottom .mat-stepper-horizontal-line {
+   display: none;
+}
+
+.mat-stepper-label-position-bottom .mat-horizontal-stepper-header:not(:first-child)::before,
+[dir=rtl] .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:not(:last-child)::before,
+.mat-stepper-label-position-bottom .mat-horizontal-stepper-header:not(:last-child)::after,
+[dir=rtl] .mat-stepper-label-position-bottom .mat-horizontal-stepper-header:not(:first-child)::after {
+    display: none;
+}
+
+
+

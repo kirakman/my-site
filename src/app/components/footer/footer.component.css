@@ -42,3 +42,10 @@ img:hover{
       transform: translate(0, 0);
     }
   }
+
+  @media screen and (max-width: 500px){
+    .footer{
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+}

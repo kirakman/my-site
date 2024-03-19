@@ -59,3 +59,45 @@ letter-spacing: 10px;
     from, to { border-color: transparent }
     50% { border-color: #ffc736 }
 }
+
+@media screen and (max-width: 500px){
+  h1{
+    font-size: 40px;
+}
+  img {
+    width: 320px;
+    height: 220px;
+    border: none;
+    border-radius: 10px;
+  }
+  .carousel-caption{
+    position:static;  
+    margin-top: 35px; 
+}
+  .typewriter h1 {
+    color: #f5f4ef;
+    overflow: hidden; 
+    border-right: .10em solid #ffc736; 
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'chromate', sans-serif;
+  }
+    
+@keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ffc736 }
+}
+.carrossel {
+    border-right: none;
+    border-left: none;
+}
+}

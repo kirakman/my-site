@@ -119,3 +119,74 @@ h2{
     color: #ffc736;
     font-size: 60px;
 }
+
+/* responsividade */
+
+@media screen and (max-width: 500px){
+    .left .buttons{
+    display: flex;
+    gap: 22px;
+    position: absolute;
+    left: 130px;
+    top: 500px;
+    flex-direction: column;
+    }
+    button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #f5f4f5;
+    background-color: transparent;
+    color: #f5f4f5;
+    letter-spacing: 2px;
+    transition: 1s;
+    gap: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    }
+    button:hover {
+    background-color: #ffc736;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    }
+    .buttons button:focus {
+    background-color: #ffc736;
+    outline: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: 0.5s;
+    }
+    .left-content img {
+        display: none;
+    }
+    .container-bloco{
+        display: flex;
+        flex-direction: column;
+    }
+    p {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .left {
+        display: flex;
+        flex-direction: row;
+        border-left: none;
+        position: absolute;
+        bottom: 50px;
+    }
+    h1, h2 {
+        font-size: 14px;
+    }
+    .right {
+        background-color: transparent;
+       border: none;
+    }
+    .mensagem{
+        width: 80vw;
+    }
+}
