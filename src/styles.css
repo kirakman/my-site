@@ -58,6 +58,7 @@ span, button {
         display: none;
     }
     .mat-horizontal-stepper-header-container {
-        width: 110vw;
+        width: 100vw;
+        justify-content: center;
 }
 }

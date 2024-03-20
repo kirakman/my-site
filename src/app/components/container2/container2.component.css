@@ -127,7 +127,7 @@ h2{
     display: flex;
     gap: 22px;
     position: absolute;
-    left: 130px;
+    left: 155px;
     top: 500px;
     flex-direction: column;
     }
@@ -184,7 +184,7 @@ h2{
     }
     .right {
         background-color: transparent;
-       border: none;
+        border: none;
     }
     .mensagem{
         width: 80vw;
