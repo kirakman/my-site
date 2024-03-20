@@ -171,7 +171,7 @@ a {
 }
 
 
-/* RESPONSIVIDADE */
+/* RESPONSIVIDADE 500px */
 
 @media screen and (max-width: 500px){
   .container-bloco{
@@ -279,5 +279,18 @@ a {
 }
 }
 
+/* RESPONSIVIDADE 1280PX */
+
+@media screen and (max-width: 1300px){
+  h1{
+    font-size: 90px;
+  }
+  img{
+    width: 446px;
+    height: 442px;
+    left: 100px;
+    position: relative;
+}
+}
 
   

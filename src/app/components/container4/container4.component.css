@@ -101,3 +101,20 @@ letter-spacing: 10px;
     border-left: none;
 }
 }
+
+/* RESPONSIVIDADE 1280PX */
+
+@media screen and (max-width: 1300px){
+    img {
+        border: 1px transparent solid;
+        border-radius: 75px;
+        width: 720px;
+        height: 480px;
+    }
+    .carrossel {
+        padding-left: 230px;
+        padding-right: 230px;
+        border-right: 10px solid #ffc736;
+        border-left: 10px solid #ffc736;
+    }
+  }
