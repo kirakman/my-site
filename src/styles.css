@@ -59,9 +59,5 @@ span, button {
     }
     .mat-horizontal-stepper-header-container {
         width: 110vw;
-}   
-    .mat-typography {
-    background-size: contain; 
-    overflow-x: hidden;
 }
 }
