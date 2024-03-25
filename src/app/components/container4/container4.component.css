@@ -74,6 +74,9 @@ letter-spacing: 10px;
     position:static;  
     margin-top: 35px;
 }
+p {
+    font-size: 10px;
+}
   .typewriter h1 {
     color: #f5f4ef;
     overflow: hidden; 
@@ -104,7 +107,7 @@ letter-spacing: 10px;
 
 /* RESPONSIVIDADE 1280PX */
 
-@media screen and (min-width: 1300px) and (max-width: 1900px){
+@media screen and (min-width: 1280px) and (max-width: 1900px){
     img {
         border: 1px transparent solid;
         border-radius: 75px;
