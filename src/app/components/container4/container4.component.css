@@ -123,14 +123,11 @@ p {
     height: auto;
     width: auto;
     border: 1px transparent solid;
+    transition: transform 0.5s, box-shadow 0.5s;
 }
 
 .images-retângulo:hover{
-    max-width: 446px;
-    max-height: 260px;
-    height: auto;
-    width: auto;
-    transition: 0.5s;
+    transform: scale(1.05);
     box-shadow: -10px 10px 0px -2px rgba(255,199,54,1);
     -webkit-box-shadow: -10px 10px 0px -2px rgba(255,199,54,1);
     -moz-box-shadow: -10px 10px 0px -2px rgba(255,199,54,1);
