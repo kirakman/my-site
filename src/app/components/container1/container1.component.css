@@ -11,7 +11,7 @@
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 100px;
     font-family: 'chromate', sans-serif;
     color: #f5f4ef;
     letter-spacing: 10px;
@@ -22,7 +22,7 @@ h1 {
 img{
     width: 446px;
     height: 442px;
-    left: 300px;
+    left: 220px;
     position: relative;
 }
 
