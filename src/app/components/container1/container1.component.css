@@ -216,6 +216,7 @@ a {
     animation: secondopenclose 5s ease-in-out;
     width: 150px;
   }
+
   @keyframes secondopenclose {
     0% {
       top: -10.5rem;
@@ -279,18 +280,102 @@ a {
 }
 }
 
-/* RESPONSIVIDADE 1280PX */
-
-@media screen and (min-width: 1280px) and (max-width: 1900px){
-  h1{
-    font-size: 90px;
-  }
-  img{
-    width: 446px;
-    height: 442px;
-    left: 100px;
-    position: relative;
+.brain-mobile {
+  display: none;
 }
+
+@media screen and (max-width: 500px) {
+  .brain-mobile {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    top: 95%;
+    z-index: 999;
+  }
+
+  .brain-svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .brain-path {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: drawBrain 3s ease forwards, glowBrain 2s ease-in-out infinite;
+  }
+
+  .circuit {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: drawCircuit 2s ease forwards 2s, pulseCircuit 1.5s ease-in-out infinite;
+  }
+
+  .node {
+    opacity: 0;
+    animation: fadeNodes 0.5s ease forwards 3s, pulseNodes 1.5s ease-in-out infinite;
+  }
+
+  @keyframes drawBrain {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes drawCircuit {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes fadeNodes {
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes glowBrain {
+    0%, 100% {
+      filter: drop-shadow(0 0 2px #ffc736);
+    }
+    50% {
+      filter: drop-shadow(0 0 5px #ffc736);
+    }
+  }
+
+  @keyframes pulseCircuit {
+    0%, 100% {
+      stroke-opacity: 0.5;
+    }
+    50% {
+      stroke-opacity: 1;
+    }
+  }
+
+  @keyframes pulseNodes {
+    0%, 100% {
+      transform: scale(1);
+      filter: drop-shadow(0 0 2px #ffc736);
+    }
+    50% {
+      transform: scale(1.2);
+      filter: drop-shadow(0 0 4px #ffc736);
+    }
+  }
+
+  .brain-mobile {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
 }
 
   
