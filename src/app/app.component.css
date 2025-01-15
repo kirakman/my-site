@@ -21,6 +21,9 @@
         flex-direction: column;
         gap: 130px;
     }
+    .all-content{
+        overflow-x: hidden;
+    }
 }
 
 /* TESTE */
