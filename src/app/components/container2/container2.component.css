@@ -120,87 +120,92 @@ h2{
     font-size: 60px;
 }
 
-/* responsividade */
+/* Mantenha o CSS anterior e substitua/adicione estas regras para a responsividade */
 
-@media screen and (max-width: 500px){
-    .left .buttons{
-    display: flex;
-    gap: 22px;
-    position: absolute;
-    left: 155px;
-    top: 500px;
-    flex-direction: column;
-    }
-    button {
-    padding: 5px 10px;
-    border-radius: 20px;
-    border: 1px solid #f5f4f5;
-    background-color: transparent;
-    color: #f5f4f5;
-    letter-spacing: 2px;
-    transition: 1s;
-    gap: 2px;
-    cursor: pointer;
-    font-size: 12px;
-    }
-    button:hover {
-    background-color: #ffc736;
-    color: black;
-    padding: 5px 10px;
-    border-radius: 20px;
-    border: 1px solid black;
-    transition: 0.5s;
-    letter-spacing: 2px;
-    }
-    .buttons button:focus {
-    background-color: #ffc736;
-    outline: none;
-    color: black;
-    padding: 5px 10px;
-    border-radius: 20px;
-    border: 1px solid black;
-    transition: 0.5s;
-    }
-    .left-content img {
-        display: none;
-    }
-    .container-bloco{
+@media screen and (max-width: 500px) {
+    .container-bloco {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        padding: 10px;
     }
-    p {
-        font-size: 12px;
-        text-align: justify;
-    }
+
     .left {
-        display: flex;
-        flex-direction: row;
+        width: 100%;
+        max-width: 100%;
         border-left: none;
-        position: absolute;
-        bottom: 50px;
+        position: relative; /* Mudado de absolute para relative */
+        height: auto;
+        margin-bottom: 20px;
     }
-    h1, h2 {
-        font-size: 14px;
+
+    .left .buttons {
+        display: flex;
+        flex-direction: row; /* Mudado de column para row */
+        position: static; /* Removido o posicionamento absolute */
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
     }
+
+    button {
+        flex: 1; /* Faz os botões dividirem o espaço igualmente */
+        max-width: 120px; /* Limita a largura máxima */
+        padding: 8px 12px;
+        font-size: 12px;
+        white-space: nowrap; /* Evita quebra de texto */
+    }
+
     .right {
-        background-color: transparent;
-        border: none;
+        width: 100%;
+        max-width: 100%;
+        padding: 15px;
+        height: auto;
+        border-radius: 20px;
     }
-    .mensagem{
-        width: 80vw;
+
+    .mensagem {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Ajustes adicionais para melhor visualização */
+    h1 {
+        font-size: 24px;
+        letter-spacing: 5px;
+    }
+
+    .titulo {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 0 10px;
     }
 }
 
-/* RESPONSIVIDADE 1280PX */
+/* Adicione um breakpoint intermediário para tablets */
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .container-bloco {
+        flex-direction: column;
+    }
 
-@media screen and (min-width: 1280px) and (max-width: 1900px){
-    p{
-        font-size: 16px;
+    .left, .right {
+        width: 100%;
+        max-width: 100%;
     }
-    h1{
-        font-size: 38px;
+
+    .left .buttons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+        margin: 20px 0;
     }
-    .titulo{
-        font-size: 40px;
+
+    button {
+        padding: 8px 15px;
     }
-  }
+}
